@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=0
+Content-Type: application/javascript; charset=utf-8
+ETag: "4.8.3"
+Date: Tue, 22 Sep 2026 09:05:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+

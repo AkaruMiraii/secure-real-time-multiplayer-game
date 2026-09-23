@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A secure real-time multiplayer canvas game"
+    />
+    <title>Secure Real-Time Multiplayer Game</title>
+    <link rel="stylesheet" href="/public/style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <main class="layout">
+      <section class="game-card" aria-labelledby="game-title">
+        <header class="game-header">
+          <div>
+            <p class="eyebrow">Information Security Project</p>
+            <h1 id="game-title">Coin Race</h1>
+          </div>
+          <p id="connection-status" class="status-badge">Connecting...</p>
+        </header>
+
+        <div class="game-meta" aria-live="polite">
+          <span id="player-status">0 connected</span>
+          <span id="score-status">Score: 0</span>
+          <span id="rank-status">Rank: -/-</span>
+        </div>
+
+        <canvas
+          id="game-window"
+          width="640"
+          height="480"
+          aria-label="Coin Race game board"
+        ></canvas>
+
+        <p class="instructions">
+          Move with WASD or the arrow keys. Collect coins to increase your score.
+        </p>
+      </section>
+    </main>
+    <script src="/public/game.mjs" type="module"></script>
+  </body>
+</html>

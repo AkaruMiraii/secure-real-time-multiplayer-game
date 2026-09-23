@@ -1,0 +1,30 @@
+{
+  "name": "secure-real-time-multiplayer-game",
+  "version": "1.0.0",
+  "description": "Information Security 5: Secure Real-Time Multiplayer Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "PORT=3005 mocha --require @babel/register --recursive --exit --ui tdd tests/"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.8",
+    "cors": "^2.8.6",
+    "dotenv": "^8.6.0",
+    "express": "^4.22.3",
+    "helmet": "^3.23.3",
+    "socket.io": "^4.8.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/register": "^7.29.7",
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "jsdom": "^27.4.0",
+    "mocha": "^12.0.2",
+    "semver": "^5.7.2",
+    "socket.io-client": "^4.8.3"
+  }
+}

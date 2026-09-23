@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+X-Powered-By: PHP 7.4.3
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Expires: 0
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Last-Modified: Tue, 22 Sep 2026 07:41:48 GMT
+ETag: W/"5b1-1a0c810532b"
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1457
+Date: Tue, 22 Sep 2026 09:05:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
